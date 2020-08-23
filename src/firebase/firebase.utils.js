@@ -2,11 +2,10 @@
 // import 'firebase/storage';
 // import 'firebase/firestore';
 
-import firebase from '../../firebase/functions/node_modules/firebase';
-import '../../firebase/functions/node_modules/firebase/firestore';
-import '../../firebase/functions/node_modules/firebase/auth';
-import '../../firebase/functions/node_modules/firebase/functions';
-// import * as admin from '../../firebase/functions/node_modules/firebase-admin';
+import * as firebase from 'firebase/app';
+import 'firebase/firestore';
+import 'firebase/auth';
+import 'firebase/functions';
 
 var firebaseConfig = {
   apiKey: 'AIzaSyA5O1Mu8to1qOPLhAyNGqzPVypIVLxZXvM',
